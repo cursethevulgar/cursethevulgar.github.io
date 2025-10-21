@@ -26,11 +26,11 @@ jobs:
         env:
           GH_TOKEN: ${{secrets.REPO_READ_TOKEN}}
         run: |
-          gh repo clone anerdwithaknife/knurl -- --depth=1
-          gh repo clone anerdwithaknife/clean-clips -- --depth=1
-          gh repo clone anerdwithaknife/svg2stl -- --depth=1
-          gh repo clone anerdwithaknife/brainfuck-stepper -- --depth=1
-          gh repo clone anerdwithaknife/webterm -- --depth=1
+          gh repo clone cursethevulgar/knurl -- --depth=1
+          gh repo clone cursethevulgar/clean-clips -- --depth=1
+          gh repo clone cursethevulgar/svg2stl -- --depth=1
+          gh repo clone cursethevulgar/brainfuck-stepper -- --depth=1
+          gh repo clone cursethevulgar/webterm -- --depth=1
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
